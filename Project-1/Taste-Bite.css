@@ -114,7 +114,7 @@ img{
   height: 29px;
   margin: 15px 0 0 14px;
   padding: 8px;
-  color: goldenrod;
+  color: orangered;
   font-size: 20px;
   letter-spacing: 2px;
 }
@@ -246,12 +246,86 @@ img{
 
 .collection-card{
     background:#fff;
-    border-radius:20px;
+    border-radius:7px;
+    border: 1px solid gainsboro;
+    width: 550px;
+    height: 500px;
     overflow:hidden;
 }
 
+.box button{
+    background-color: white;
+    width: 121.54px;
+    height: 26.6px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    outline-width: 2.4px;
+    padding: 0 20px;
+    margin: 0 370px 0 ;
+    margin-bottom: 40px;
+}
+
+.box-1 button{
+    background-color: white;
+    width: 121.54px;
+    height: 26.6px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    outline-width: 2.4px;
+    padding: 0 20px;
+    margin: 38px 370px 
+}
+
+.box-2 button{
+    background-color: white;
+    width: 121.54px;
+    height: 26.6px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    outline-width: 2.4px;
+    padding: 0 20px;
+    margin: 38px 370px 
+}
+
+.box-3 button{
+    background-color: white;
+    width: 121.54px;
+    height: 26.6px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    outline-width: 2.4px;
+    padding: 0 20px;
+    margin: 38px 370px 
+}
+
+.box-4 button{
+    background-color: white;
+    width: 121.54px;
+    height: 26.6px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    outline-width: 2.4px;
+    padding: 0 20px;
+    margin: 38px 370px 
+}
+
+.box-5 button{
+    background-color: white;
+    width: 121.54px;
+    height: 26.6px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    outline-width: 2.4px;
+    padding: 0 20px;
+    margin: 38px 370px 
+}
 .collection-card img{
-    height:320px;
     object-fit:cover;
 }
 
@@ -276,6 +350,21 @@ img{
 .latest {
   row-gap: 24px;
 }
+
+.load-more{
+    padding:10px 50px;
+    height: 50.6px;
+    width: 220px;
+    margin:30px 470px 0;
+    background-color: white;
+    color:#111;
+    font-weight:bold;
+    font-size: 18px;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+}
+
 
 .mini-card h4 {
   margin: 8px 0 0;
@@ -310,12 +399,28 @@ img{
     list-style:none;
 }
 
+.tasty{
+    width: 161px;
+    height: 50px;
+}
+
 .footer ul li{
     margin-bottom:12px;
     color:#666;
 }
 
+hr{
+    height: 1px;
+    width: 100%;
+    margin-top: 65px;
+}
 
+.icons{
+    text-align: right;
+    margin-top: -25px;
+    width: 20.83px;
+    color: gainsboro;    
+}
 
 
 @media(max-width:768px){
