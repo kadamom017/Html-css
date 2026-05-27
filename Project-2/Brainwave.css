@@ -1,0 +1,480 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    color:#111827;
+    background:#f8f8f8;
+    line-height:1.6;
+}
+
+img{
+    width:100%;
+    display:block;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.header{
+    background:#fff;
+    padding:25px 0;
+}
+
+.nav-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:700;
+}
+
+.navbar{
+    display:flex;
+    gap:35px;
+}
+
+.navbar a{
+    text-decoration:none;
+    color:#111827;
+    font-weight:500;
+    transition:0.3s;
+}
+
+.navbar a:hover{
+    color:#5b4bff;
+}
+
+.btn{
+    display:inline-block;
+    background:#5b4bff;
+    color:#fff;
+    text-decoration:none;
+    padding:14px 26px;
+    border-radius:8px;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.btn:hover{
+    transform:translateY(-2px);
+}
+
+.small-btn{
+    padding:12px 20px;
+    font-size:14px;
+}
+
+.hero-section{
+    background:#fff;
+    padding:80px 0 120px;
+}
+
+.hero-content{
+    text-align:center;
+}
+
+.hero-image{
+    width:320px;
+    margin:auto;
+    margin-bottom:40px;
+}
+
+.mini-title{
+    color:#ff6b6b;
+    letter-spacing:2px;
+    font-size:12px;
+    font-weight:600;
+    margin-bottom:20px;
+}
+
+.hero-content h1{
+    font-size:64px;
+    line-height:1.2;
+    font-weight:700;
+    margin-bottom:25px;
+}
+
+.hero-text{
+    max-width:700px;
+    margin:auto;
+    color:#6b7280;
+    margin-bottom:35px;
+}
+
+.hero-buttons{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:30px;
+}
+
+.watch-btn{
+    text-decoration:none;
+    color:#111827;
+    font-size:14px;
+    font-weight:600;
+}
+
+.feature-section{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    min-height:650px;
+}
+
+.feature-image img{
+    height:100%;
+    object-fit:cover;
+}
+
+.feature-content{
+    background:#f3f4f6;
+    padding:100px 80px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.feature-content h2{
+    font-size:52px;
+    line-height:1.2;
+    margin-bottom:20px;
+}
+
+.feature-content p{
+    color:#6b7280;
+}
+
+.feature-boxes{
+    display:flex;
+    gap:30px;
+    margin-top:45px;
+}
+
+.feature-box{
+    display:flex;
+    gap:15px;
+}
+
+.icon{
+    font-size:28px;
+}
+
+.feature-box h4{
+    margin-bottom:10px;
+}
+
+.feature-box p{
+    font-size:14px;
+}
+
+.testimonial-section{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    min-height:620px;
+}
+
+.testimonial-left{
+    background:#4f46ff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:80px;
+}
+
+.testimonial-content{
+    max-width:420px;
+    color:#fff;
+}
+
+.testimonial-content h2{
+    font-size:58px;
+    line-height:1.1;
+    font-weight:700;
+    margin-bottom:25px;
+}
+
+.testimonial-content p{
+    color:rgba(255,255,255,0.75);
+    line-height:1.8;
+    margin-bottom:50px;
+}
+
+.testimonial-box{
+    display:flex;
+    gap:18px;
+    align-items:flex-start;
+}
+
+.user-img{
+    width:48px;
+    height:48px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+.review-content h4{
+    font-size:18px;
+    line-height:1.8;
+    font-weight:400;
+    margin-bottom:12px;
+}
+
+.review-content span{
+    font-size:14px;
+    color:rgba(255,255,255,0.7);
+}
+
+.testimonial-right img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.dark-showcase{
+    background:#071126;
+    padding:120px 20px;
+    overflow:hidden;
+    position:relative;
+}
+
+.dark-showcase::before{
+    content:'';
+    position:absolute;
+    inset:0;
+
+    background:
+    radial-gradient(circle at 15% 80%,
+    rgba(255,255,255,0.05),
+    transparent 35%),
+
+    radial-gradient(circle at 85% 20%,
+    rgba(255,255,255,0.03),
+    transparent 35%);
+}
+
+.showcase-container{
+    max-width:1000px;
+    margin:auto;
+    text-align:center;
+    position:relative;
+    z-index:2;
+}
+
+.showcase-container h2{
+    color:#fff;
+    font-size:58px;
+    line-height:1.2;
+    max-width:650px;
+    margin:auto;
+    margin-bottom:24px;
+    font-weight:700;
+}
+
+.showcase-container p{
+    color:rgba(255,255,255,0.7);
+    max-width:550px;
+    margin:auto;
+    line-height:1.8;
+    margin-bottom:90px;
+}
+
+.airpods-wrapper{
+    position:relative;
+    width:500px;
+    height:320px;
+    margin:auto;
+}
+
+.left-airpod{
+    position:absolute;
+    width:190px;
+    left:70px;
+    top:0;
+
+    transform:rotate(-10deg);
+
+    filter:drop-shadow(0px 20px 40px rgba(0,0,0,0.5));
+}
+
+.right-airpod{
+    position:absolute;
+    width:210px;
+    right:40px;
+    bottom:-10px;
+
+    transform:rotate(18deg);
+
+    filter:drop-shadow(0px 20px 40px rgba(0,0,0,0.5));
+}
+
+.products-section{
+    background:#fff;
+    padding:120px 0;
+}
+
+.section-heading{
+    text-align:center;
+    margin-bottom:70px;
+}
+
+.section-heading h2{
+    font-size:52px;
+    margin-bottom:20px;
+}
+
+.section-heading p{
+    max-width:650px;
+    margin:auto;
+    color:#6b7280;
+}
+
+.product-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:40px;
+}
+
+.product-card{
+    text-align:center;
+}
+
+.product-card img{
+    height:280px;
+    object-fit:cover;
+    border-radius:16px;
+    margin-bottom:20px;
+}
+
+.product-card h3{
+    margin-bottom:10px;
+}
+
+.product-card p{
+    color:#6b7280;
+    margin-bottom:25px;
+    font-size:14px;
+}
+
+.product-btn{
+    padding:12px 22px;
+    font-size:14px;
+}
+
+.large-image-section img{
+    height:650px;
+    object-fit:cover;
+}
+
+.footer{
+    background:#fff;
+    padding:35px 0;
+}
+
+.footer-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.footer-logo{
+    font-size:22px;
+    font-weight:700;
+}
+
+.footer-links{
+    display:flex;
+    gap:35px;
+}
+
+.footer-links a{
+    text-decoration:none;
+    color:#111827;
+    font-size:14px;
+}
+
+@media(max-width:992px){
+
+    .feature-section,
+    .testimonial-section,
+    .product-grid{
+        grid-template-columns:1fr;
+    }
+
+    .hero-content h1,
+    .feature-content h2,
+    .testimonial-content h2,
+    .showcase-container h2,
+    .section-heading h2{
+        font-size:42px;
+    }
+
+    .feature-content,
+    .testimonial-left{
+        padding:60px 30px;
+    }
+
+    .feature-boxes{
+        flex-direction:column;
+    }
+
+    .navbar{
+        display:none;
+    }
+
+    .footer-container{
+        flex-direction:column;
+        gap:20px;
+    }
+
+    .airpods-wrapper{
+        width:320px;
+        height:250px;
+    }
+
+    .left-airpod{
+        width:130px;
+        left:30px;
+    }
+
+    .right-airpod{
+        width:150px;
+        right:20px;
+    }
+}
+
+
+@media(max-width:768px){
+
+    .hero-content h1{
+        font-size:36px;
+    }
+
+    .hero-buttons{
+        flex-direction:column;
+    }
+
+    .feature-content h2,
+    .testimonial-content h2,
+    .showcase-container h2,
+    .section-heading h2{
+        font-size:32px;
+    }
+
+    .review-content h4{
+        font-size:16px;
+    }
+
+    .large-image-section img{
+        height:400px;
+    }
+}
